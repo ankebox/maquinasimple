@@ -57,6 +57,13 @@ public class MaquinaExpendedoraSimple {
         balanceClienteActual = balanceClienteActual + cantidadIntroducida;
     }
 
+    public int totalDineroAcumulado() {
+    
+        return totalDineroAcumulado ;
+        
+   }
+    
+    
     /**
      * Imprime un billete para el cliente actual
      */
@@ -74,4 +81,11 @@ public class MaquinaExpendedoraSimple {
         // Queda preparada para el proximo cliente
         balanceClienteActual = 0;
     }
+
+    
+
+
+
+
+
 }
